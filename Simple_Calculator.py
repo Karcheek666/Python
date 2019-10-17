@@ -11,7 +11,7 @@ op = input("Enter the operator of your choice: ")
 #assign operator between    inputs and get output
 #fail proof code from string inputs
 try:
-    if op == "+,+,+,+,+,+,+,+,+,+,+,+,+,+,":
+    if op == "+":
         sum =  int(num1) + int(num2)
         print(sum)
 
