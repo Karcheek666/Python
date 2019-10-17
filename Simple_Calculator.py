@@ -26,7 +26,7 @@ try:
     elif op =="/":
         quotient = int(num1) / int(num2)
         print(quotient)
-except ValueError:
+except ValueError as vale:
     print("Please input appropriate values.")
 #Make the experience smoother
 
