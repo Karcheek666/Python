@@ -8,8 +8,7 @@ num2 = input("Input second number: ")
 #take thr operator they want to use
 op = input("Enter the operator of your choice: ")
 
-#assign operator between    inputs and get output
-#fail proof code from string inputs
+#assign operator between inputs and get output
 try:
     if op == "+":
         sum =  int(num1) + int(num2)
@@ -26,10 +25,11 @@ try:
     elif op =="/":
         quotient = int(num1) / int(num2)
         print(quotient)
+        
 except ValueError as vale:
     print("Please input appropriate values.")
-#Make the experience smoother
-
+    
+# Add alert for wrong operator input 
 for letter in op:
     if letter in ("x","/","+","-"):
         print("All Okay!")
