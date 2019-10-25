@@ -1,0 +1,6 @@
+name = input('Whats your name?')
+fuck = ('Fuck')
+a = ('_')
+print()
+print ('Hello')
+print(fuck + a + name)
