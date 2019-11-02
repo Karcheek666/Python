@@ -34,4 +34,4 @@ else:
     difference = 0
     
     
-print('The differnce is ', str(difference))
+print('The difference is ', str(difference))
