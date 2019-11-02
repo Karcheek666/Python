@@ -1,4 +1,3 @@
-
 import random
 fliped  = 0
 heads = 0
@@ -22,8 +21,8 @@ heads_percentage = (heads/repeat)  * 100
 
 print('^^^Flip results are given above^^^')
 print('The coin was flipped ', str(repeat) + ' times.')
-print('The outcome was Tails '+ str(tail_percentage) + ' times.')
-print('The outcome was Heads ' + str(heads_percentage) + 'times.')
+print('The outcome was Tails '+ str(int(tail_percentage/100*repeat)) + ' times.')
+print('The outcome was Heads ' + str(int(heads_percentage/100*repeat)) + ' times.')
 
 if heads > tails:
     difference = heads - tails
