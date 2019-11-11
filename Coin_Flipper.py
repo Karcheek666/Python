@@ -10,9 +10,9 @@ while i <= repeat:
     flip = random.randrange(2)
     i = i + 1
     if flip %2 == 0:
-        heads = heads + 1
+        heads += 1
     else:
-        tails = tails + 1
+        tails += 1
 
 repeat = repeat + 1
 tail_percentage = (tails/repeat) * 100
